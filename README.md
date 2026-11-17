@@ -6,6 +6,15 @@
 
 前端采用 React、Vite、Ant Design 与 Zustand，后端采用 FastAPI 与 SQLite。应用连接本机或自行配置的 LLM、ComfyUI、TTS 和音乐服务，模型权重与创作产物单独存放。
 
+## 界面预览
+
+<p>
+  <img src="docs/images/overview.png" width="900" alt="项目界面">
+  <img src="docs/images/detail.png" width="900" alt="功能界面">
+</p>
+
+本地前端截图，展示新建项目与模型配置；列表和配置采用预览用空数据与默认值，生成服务未连接。
+
 ## 创作流程
 
 1. **建立项目**：选择项目类型并输入故事或文本。
