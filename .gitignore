@@ -1,0 +1,38 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+# Dependencies and generated files
+node_modules/
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.local/
+dist/
+build/
+*.tsbuildinfo
+*.log
+# Runtime data
+*.db
+*.db-*
+*.sqlite*
+backend/data/
+saas/data/
+studio/library/
+acestep_output/
+data/chroma/
+data/bm25/
+db/
+uploads/
+outputs/
+backups/
+project.private.config.json
